@@ -15,7 +15,6 @@ jobs:
         run: |
           mkdir -p build
           touch build/.nojekyll
-
       - name: Run pandoc
         uses: docker://pandoc/core:2.12 # Always specify a version!
           with:
